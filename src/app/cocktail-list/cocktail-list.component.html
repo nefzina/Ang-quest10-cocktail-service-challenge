@@ -1,0 +1,5 @@
+
+<div *ngFor="let cocktail of cocktails">
+  <h2>{{cocktail.name}} - {{cocktail.price}} €</h2>
+  <img [src]="cocktail.image" [alt]="cocktail.name">
+</div>
